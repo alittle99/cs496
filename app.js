@@ -69,7 +69,6 @@ if(!module.parent){
     app.listen(process.env.PORT || 4000, process.env.IP || 'localhost');
 }
 
-
 console.log('Server starting at ' + (process.env.IP || 'localhost') + ':' + (4000 || process.env.PORT ) + ', probably.' );
 
 //export for testing suites and stuff
